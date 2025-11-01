@@ -1,243 +1,260 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-main {
-    display: flex;
-}
-
-.mini-container {
-    display: flex;
-}
-
-.wrapper {
-    height: 1046px;
-    width: 1440px;
-    padding-left: 124px;
-    padding-right: 151px;
-    padding-bottom: 157px;
-    padding-top: 91px;
-}
-
 body {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
-.article {
-    width: 662px;
-    height: 374px;
-    font-size: 24px;
-    margin-right: 36px;
-
-}
-
-.photo1 {
+.container {
+    padding: 91px 124px 157px;
     position: relative;
-    top: 35px;
-    left: 20px;
-    width: 290px;
-    height: 302px;
-    padding-left: 213px;
-
-
+    max-width: 1193px;
+    margin: 0 auto;
 }
 
-.photo2 {
-    width: 343px;
-    height: 59px;
-    padding-left: 213px;
+.box1,
+.box2 {
+    display: flex;
 }
 
-.photo3 {
-    position: relative;
-    top: 125px;
-    right: 10px;
-    width: 222px;
-    height: 194px;
-    margin-right: 49px;
-}
-
-.photo4 {
-    position: absolute;
-    bottom: -52px;
-    left: 155px;
-    z-index: -1;
-
-    width: 189px;
-    height: 32px;
+.box1 {
+    margin-bottom: 103px;
 }
 
 h1 {
+    font-family: 'Roboto slab', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
     width: 501px;
     height: 93px;
-    font-size: 55px;
-    margin: 0px;
+    margin-top: 0;
+    line-height: 55.76px;
+}
+
+.article {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    width: 662px;
+    height: 200px;
+    margin: 0;
+}
+
+.bigimg {
+    width: 290px;
+    height: 302px;
+    background-size: cover;
+    position: relative;
+    top: 210px;
+    right: 67px;
+    z-index: 1;
+}
+
+.miniimg {
+    width: 343px;
+    height: 59px;
+    position: absolute;
+    top: 484px;
+    right: 40px;
+    z-index: 0;
+}
+
+.img {
+    display: block;
+}
+
+.biginit {
+    width: 222px;
+    height: 194px;
+    margin-right: 142px;
+    position: relative;
+    z-index: 1;
+}
+
+.miniinit {
+    width: 189px;
+    height: 32px;
+    position: absolute;
+    bottom: 142px;
+    left: 148px;
+    z-index: 0;
+}
+
+.textbox1 {
+    margin-right: 95px;
+}
+
+.textbox2 {
+    margin-right: 93px;
+}
+
+.textbox {
+    text-align: start;
+    margin-right: 213px;
 }
 
 h2 {
+    font-weight: 700;
     font-size: 25px;
-    margin-bottom: 3px;
+    width: 150px;
+    height: 39px;
+    margin-bottom: 0;
 }
 
-.text {
-    margin-top: 164px;
-    margin-left: 93px;
-}
-
-.text p {
+p {
+    font-weight: 400;
     font-size: 18px;
     width: 150px;
     height: 39px;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
-
-@media (max-width:830px) {
-    .wrapper {
-        width: 834px;
-        height: 633px;
-        padding-left: 72px;
-        padding-right: 87px;
-        padding-top: 56px;
-        padding-bottom: 180.25px;
-    }
-
-    .combination {
-        display: none;
+@media (max-width: 834px) {
+    .container {
+        width: 690px;
+        padding: 56px 72px 180px;
     }
 
     h1 {
+        font-weight: 700;
+        line-height: 32.44px;
+        font-size: 32px;
         width: 284px;
         height: 54px;
-        font-size: 30px;
-
     }
 
-    .photo1 {
-        position: relative;
-        top: 26px;
-        left: 4px;
-        width: 164px;
-        height: 165px;
-        padding-left: 127.59px;
-
-    }
-
-    .photo2 {
-        width: 193px;
-        height: 34px;
-        padding-left: 113.59px;
-
+    .box1 {
+        margin-bottom: 70.1px;
     }
 
     .article {
-        width: 383.41px;
-        height: 216.61px;
+        font-weight: 400;
+        line-height: 21px;
         font-size: 14px;
-        margin-right: 36px;
-
+        width: 383.41px;
+        height: 105px;
     }
 
     h2 {
         font-size: 15px;
+        width: 86.88px;
+        height: 22.59px;
     }
 
-    .text p {
+    p {
         font-size: 11px;
-        width: 87px;
-        height: 23px;
+        width: 86.88px;
+        height: 22.59px;
     }
 
-    .text {
-        margin-top: 93px;
-        margin-left: 0px;
-        margin-right: 55px;
-    }
-}
-
-
-
-
-
-@media (max-width:375px) {
-    .wrapper {
-        width: 375px;
-        height: 776px;
-        padding-left: 33px;
-        padding-right: 33.53px;
-        padding-top: 56px;
-        padding-bottom: 124px;
+    .bigimg {
+        width: 164px;
+        height: 165px;
+        top: 138px;
+        right: 58px;
     }
 
-    main {
-        display: flex;
-        flex-wrap: wrap;
+    .miniimg {
+        width: 193px;
+        height: 34px;
+        right: 40px;
+        top: 287px;
     }
 
-    .mini-container {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 50.71px;
-        margin-right: 145.11px;
-    }
-
-    .combination {
+    .img {
         display: none;
     }
 
+    .textbox1 {
+        margin-right: 55.23px;
+    }
+
+    .textbox2 {
+        margin-right: 33.9px;
+    }
+
+    .textbox {
+        margin-right: 113.59px;
+    }
+}
+
+@media(max-width: 375px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 220px;
+        height: 670px;
+        padding: 56px 0 124px
+    }
+
+    .box1 {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        margin-bottom: 45.71px;
+    }
+
+    .box2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     h1 {
-        width: 215px;
-        height: 43px;
         font-size: 26px;
-
+        line-height: 26.36px;
+        width: 215px;
+        height: 54px;
     }
 
-    .photo1 {
-        position: relative;
-        top: 26px;
-        left: -40px;
-        width: 170.55px;
-        height: 160.29px;
-        padding-left: 101px;
-
-    }
-
-    .group {
-
-        padding-bottom: 50.71px;
-
-    }
-
-    .photo2 {
-        position: absolute;
-        left: 7px;
-        top: 450px;
-        z-index: -1;
-        width: 170.55px;
-        height: 34px;
-        padding-left: 101px;
-        padding-right: 103.45px;
+    .box1 {
+        margin-bottom: 45.71px;
     }
 
     .article {
-        width: 308.47px;
-        height: 174.27px;
+        line-height: 18px;
         font-size: 12px;
-        margin-right: 33.53px;
-
+        width: 308.47px;
+        height: 90px;
     }
 
     h2 {
         font-size: 12px;
+        width: 69.9px;
+        height: 18.17px;
     }
 
-    .text p {
+    p {
         font-size: 10px;
         width: 86px;
         height: 18px;
     }
 
-    .text {
-        margin: 0px;
-        margin-bottom: 16px;
+    .bigimg {
+        width: 170.55px;
+        height: 160.29px;
+        top: 371px;
+        right: 21px;
+    }
+
+    .miniimg {
+        width: 200px;
+        height: 27px;
+        top: 519px;
+        right: 6px;
+        margin-bottom: 50px;
+    }
+
+    .textbox1,
+    .textbox2 {
         margin-right: 24px;
+        margin-bottom: 34px;
+    }
+
+    .textbox {
+        margin-right: 0;
+        margin-bottom: 55.73px;
+    }
+    .imgbox {   
+        margin-top:-23rem;  
+        margin-left: 6rem;
     }
 }

@@ -1,1 +1,0 @@
-# figma# 17citapsiriq
