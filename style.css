@@ -1,0 +1,671 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: 'Roboto Slab', serif;
+}
+
+@media (min-width: 1400px) {
+    .over {
+        margin: 0 auto;
+        width: calc(100% - 16.8vw);
+    }
+    
+    .over h1 {
+        font-size: 3.81vw;
+        line-height: 3.87vw;
+    }
+}
+
+.over{
+    /*margin-left: 121px;
+    margin-right: 153px;*/
+    margin: 0 auto;
+    width: calc(100% - 16.8vw);
+}
+
+.over h1{
+    font-size: 3.81vw;
+    line-height: 3.87vw;
+font-family: "Roboto Slab";
+font-weight: 700;
+color: rgba(0, 0, 0, 1);
+width: 25.34vw;
+height: 6.45vw;
+margin-bottom: 1.25vw;
+}   
+.bir{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4.8vw;
+   }
+.birchild{
+    width: 46.32vw;
+    height: 27.71vw;
+    font-size: 1.67vw;
+    line-height: 150%;
+font-family: "Roboto";
+font-weight: 400;
+color: rgba(0, 0, 0, 1);
+}
+.photoa{
+    margin-left: 10vw;
+    width: 21.875vw;
+    height: 21.875vw;
+    padding-bottom: 0;
+    padding-top: 2vw;
+    }
+    
+.birchild p{
+    margin-bottom: 4vw;
+}
+
+.iki{
+    
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    gap:9.17vw;  
+   
+    /* width: 60vw; */
+}
+.ikichild{
+    width: 44.3vw;
+    height: 5.9vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top:8.861vw ;
+ 
+    gap:6.6vw;
+}
+.tren{
+    width: 10.41vw;
+    height: 5.5vw;
+
+}
+.tren p{
+    font-weight: 400;
+    width: 11.5vw;
+    height: 3.125vw;
+    line-height: 1.625vw;
+    font-size: 1.25vw;
+}
+.tren .strongg  {
+    width: 10.4vw;
+    height: 3.125vw;
+font-size: 1.94vw;
+line-height: 2.25vw;
+font-weight: 700;
+margin-bottom: 0.07vw;
+}
+
+
+.photob{
+    width:16.1vw;
+    height: 14.1vw;
+    margin-top: 5vw;
+    }
+    
+    
+   .uc .card2 {
+        padding: 11.25vw 24.028vw 15vw 8.403vw;
+    }
+    
+  .uc h2{
+        font-family: Roboto Slab;
+        font-size: 3.819vw;
+        font-weight: 700;
+        margin-bottom: 8.264vw;
+    }
+    
+    .uc .format-cards{
+        display: flex;
+        flex-direction: row;
+    }
+    .uc .format-card{
+        width: 18.819vw;
+        margin-right: 8.472vw;
+    }
+    
+    .uc .format-card h3{
+        font-family: 'Roboto', sans-serif;
+        color: #1E4681;
+        font-size: 1.736vw;
+        font-weight: 700;
+        margin-bottom: 1.042vw;
+    }
+    .uc .card-text{
+        font-family: 'Roboto', sans-serif;
+        color: #000;
+        font-size: 1.25vw;
+        font-weight: 400;
+        width: 100%;
+    }
+    
+    .uc .card2{
+     padding-inline: 0vw;
+    }
+    
+    
+
+
+
+
+@media (min-width: 830px) and (max-width: 1399px) {
+
+    .over{
+        margin: 0 auto;
+        width: calc(100% - 16.92vw);
+    }
+     
+.over h1{
+    font-size: 6.93vw;
+    line-height: 7vw;
+    width: 34vw;
+height: 7.7vw;
+margin-bottom: 6vw;
+}
+.bir{
+  
+    margin-bottom: 5.2vw;
+
+   }
+   .birchild{
+    width: 46.28vw;
+    height: 27.3vw;
+    font-size: 1.67vw;
+    line-height: 150%;
+}
+
+.photoa{
+    margin-left: 12.9vw;
+    width: 21.875vw;
+    height: 21.875vw;
+    padding-bottom: 0;
+    padding-top: 1.8vw;
+    }
+
+    .ikichild{
+        width: 44.3vw;
+        height: 5.5vw;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        /* margin-top:4.85vw ; */
+ 
+        gap:6.1vw;
+    }
+
+    .tren{
+        width: 11vw;
+        height: 5.5vw;
+    
+    }
+
+    .tren p{
+      
+        width: 11.4vw;
+        height: 2.76vw;
+        line-height: 1.71vw;
+        font-size: 1.32vw;
+    }
+    .tren .strongg  {
+        width: 10.4vw;
+        height: 3.07vw;
+    font-size: 1.8vw;
+    line-height: 2.34vw;
+
+    margin-bottom: 0.07vw;
+    }
+    
+    .photob{
+        width:16.1vw;
+        height: 14.1vw;
+        /* margin-top: 10vw; */
+        }
+
+        .uc  .card2 {
+            padding: 11.229vw 23.888vw 15.294vw 8.513vw;
+        }
+      
+        .uc  h2{
+            font-size: 3.837vw;
+            margin-bottom: 8.993vw;
+        }
+      
+        .uc  .format-card{
+            width: 19.904vw;
+            margin-right: 6.835vw;
+        }
+      
+        .uc    .format-card h3{
+            font-size: 1.799vw;
+            margin-bottom: 0.959vw;
+        }
+        .uc   .card-text{
+            font-size: 1.319vw;
+            width: 100%;
+        }
+      
+        .uc  .card2{
+        padding-inline: 0vw;
+        }
+      
+ 
+
+}
+@media (min-width: 375px) and (max-width: 829px) {
+   
+    .over{
+  
+        margin: 0 auto ;
+        width: calc( 100% - 18.13vw );
+    }
+
+    .over h1{
+        font-size: 3.83vw;
+        line-height: 3.9vw;
+        width: 25.34vw;
+    height: 6.46vw;
+    margin-bottom: 1.25vw;
+    margin-top: 20vw;
+    }
+
+    .bir{
+        flex-direction: column;
+        margin-bottom: 0vw;
+        gap: 3.46vw;
+    
+       }
+
+       .birchild{
+        width: 81.87vw;
+        height: 58vw;
+        font-size: 3.2vw;
+        line-height: 150%;
+    }
+
+    .photoa{
+        margin-bottom: 0vw;
+        margin-top: 3.2vw;
+        margin-left: auto;
+        margin-right: auto;
+        width: 45.48vw;
+        height: 42.75vw;
+        display: flex;
+     
+        }
+.photob{
+  display: none;
+    }
+
+    .iki{
+    
+        display: flex;
+        /* justify-content: space-between; */
+        flex-direction: row;
+        gap:0vw;  
+      
+       
+        /* width: 60vw; */
+    }
+
+    .ikichild{
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap ;
+        margin-top:12.2vw ;
+     
+        gap:9vw;
+    }
+
+    .tren{
+        width: 23vw;
+        height: 10vw;
+    
+    }
+    .tren p{
+     
+        width: 23vw;
+        height: 7.5vw;
+        line-height: 3.46vw;
+        font-size: 2.7vw;
+    }
+    .tren .strongg  {
+        width: 18.67vw;
+        height: 4.85vw;
+    font-size: 3.2vw;
+    line-height: 4.16vw;
+    margin-bottom: 0.22vw;
+    }
+    
+        .uc .card2 {
+            padding: 18.133vw 29.067vw 19.467vw 9.6vw;
+        }
+      
+        .uc  h2{
+            font-size: 6.933vw;
+            margin-bottom: 4.53vw;
+            width: 100%;
+            height: 11.47vw;
+        }
+      
+        .uc .format-cards {
+          flex-direction: column;
+        }
+      
+        .uc .format-card{
+            width: 48vw;
+            margin-bottom: 8vw;
+        }
+      
+        .uc  .format-card h3{
+            font-size: 3.2vw;
+            margin-bottom: 0.267vw;
+        }
+        .uc .card-text{
+            font-size: 2.667vw;
+            width: 100%;
+        }
+      
+       .uc .card2{
+        padding-inline:0vw;
+            }    
+      
+
+    
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;300;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card3{
+    margin: 0 auto;
+    width: calc( 100% - 11.7vw);
+}
+.section4{
+    display: flex;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 17.2vw;
+}
+.header{
+    padding-top: 4.16vw;
+}
+.header ul{
+    color: #000;
+    font-family: Roboto;
+font-size: 1.6vw;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+width: 45.9vw;
+height: 25.97vw;
+}
+.section5{
+   display: flex;
+
+   margin-left: auto;
+   margin-right: auto;
+  
+}
+.header2{
+
+ display: flex;
+
+ gap: 2.56vw;
+ 
+}
+section h2{
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+font-size: 3.8vw;
+font-style: normal;
+font-weight: 700;
+line-height: 101.385%;
+}
+.head{
+ margin-top: 6.59vw;
+
+}
+
+div .child{
+    margin-bottom: 2.8vw;
+    border-radius: 2vw;
+background: #FFF;
+box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.25);
+width: 27.7vw;
+
+height: 22.7vw;
+
+}
+
+div img{
+   
+    width: 27.7vw;
+height: 11.11vw;
+
+}
+div .child p{
+    padding-left: 1.38vw;
+}
+div .heading{
+    margin-top: 0.5vw;
+    color: #000;
+font-family: Roboto;
+font-size: 2.08vw;
+font-style: normal;
+font-weight: 700;
+line-height: 130%;
+}
+.paragraph{
+    width: auto;
+    padding-bottom: 1.45vw;
+   
+}
+div .time{
+    padding-top: 2vw;
+    color: #000;
+font-family: Roboto;
+font-size: 1.7vw;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+}
+div .time2{
+  
+    color: #000;
+font-family: Roboto;
+font-size: 1.7vw;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;  
+}
+.header h2{
+    padding-bottom: 1.38vw;
+}
+
+
+
+
+
+
+@media (min-width: 830px) and (max-width: 1399px) {
+    
+  
+
+    .card3{
+        width:75vw;
+        }
+  .header ul{
+    font-size: 1.67vw;
+    width: 46vw;
+height: 26vw;
+  }
+  section h2{
+    font-size: 3.1vw;
+    width: 37.6vw;
+height: 5.25vw;
+
+}
+
+.head{
+    margin-top: 5.3vw;
+   }
+   .section5{
+    display: flex;
+  
+    margin-left: auto;
+    margin-right: auto;
+   
+ }
+.header{
+    padding-top: 1.1vw;
+}
+   div .child{
+    margin-bottom: 2.2vw;
+    width: 22.5vw;
+    height: 18.5vw;
+}
+div img{
+    width: 22.5vw;
+    height: 9.04vw;
+}
+div .heading{
+    font-size: 1.6vw;
+
+}
+div .time{
+    padding-top: 1.25vw;
+font-size: 1.36vw;
+
+}
+div .time2{
+font-size: 1.36vw;
+}
+.section4{
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 13.6vw;
+}
+  }
+
+  @media (min-width: 375px) and (max-width: 829px) {
+
+   
+    .card3{
+      margin: 0 auto ;
+      width: calc( 100% - 18.13vw );
+      }
+      .section4{
+     
+        
+display: block;
+         margin-bottom: 10.4vw;
+         width: 100%;
+         height: auto;
+     }
+
+  .header ul{
+      font-size: 3.2vw;
+      width: 38.9vw;
+      height: 22.6vw;
+    }
+    section h2{
+        margin-bottom: 10vw;
+      font-size: 7vw;
+      width: auto;
+      height: auto;
+  /* padding-left: 20px; */
+  }
+  .header2{
+
+      display: flex;
+     flex-direction: column;
+  padding-top: 3.12vw;
+      gap: 3.12vw;
+     align-items: center;
+     }
+     .header{
+      padding-top: 1.3vw;
+  }
+  .head{
+      margin-top: 2.6vw;
+      
+     
+     }
+     .section5{
+    display: block;
+      max-width: none;
+      margin-left: auto;
+      margin-right: auto;
+     
+   }
+     div .child{
+      margin-bottom: 6.44vw;
+      width: 50.2vw;
+      height: 40.7vw;
+      border-radius: 3.73vw;
+  }
+
+  div .child p{
+    font-size: 3.74vw;
+    padding-left: 2vw;
+  } 
+  div img{
+      width: 100%;
+      height: auto;
+  }
+  div .heading{
+      font-size: 2.2vw;
+  
+  }
+  div .time{
+      padding-top: 2.3vw;
+  font-size: 1.8vw;
+  
+  }
+  div .time2{
+  font-size: 1.82vw;
+  }
+  .header ul{
+ 
+      width: auto;
+      height: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
